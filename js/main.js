@@ -1,6 +1,6 @@
 $(function() {
   const d = new Date();
-  const hours = d.getHours();
+  const hours = 20;
   const night = hours >= 19 || hours <= 7; // between 7pm and 7am
   const body = document.querySelector('body');
   const toggle = document.getElementById('toggle');
