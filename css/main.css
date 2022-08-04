@@ -156,8 +156,6 @@ img {
 }
 
 .avatar {
-    float:right;
-    margin-right:50px;
     clear:both;
     vertical-align: middle;
     width: 250px;
@@ -480,11 +478,13 @@ strong {
 }
 
 .intro {
-    padding: 120px 100px;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
@@ -497,19 +497,25 @@ strong {
 
 @media screen and (max-width:630px) {
     .intro {
-        padding: 120px 70px
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 }
 
 @media screen and (max-width:550px) {
     .intro {
-        padding: 120px 50px
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 }
 
 @media screen and (max-width:480px) {
     .intro {
-        padding: 70px 50px
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
     }
 }
 
@@ -628,7 +634,6 @@ strong {
 
 @media screen and (max-width:630px) {
     .events .eventz__category {
-        width: 47%;
         margin-right: 5px;
         margin-bottom: 25px
     }
