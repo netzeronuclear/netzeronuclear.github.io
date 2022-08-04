@@ -118,9 +118,9 @@ body.night .switch-wrapper .moon, html.night .switch-wrapper .moon {
 }
 
 body.night .experience .job__time, body.night .footer__copyright,
-body.night .intro, body.night .skills .skillz__category__label, body.night .status,
+body.night .intro, body.night .events .eventz__category__label, body.night .status,
 body.night a, body.night strong, html.night .experience .job__time,
-html.night .footer__copyright, html.night .intro, html.night .skills .skillz__category__label,
+html.night .footer__copyright, html.night .intro, html.night .events .eventz__category__label,
 html.night .status, html.night a, html.night strong {
     color: #e7e7e7
 }
@@ -161,7 +161,6 @@ img {
     vertical-align: middle;
     width: 250px;
     height: 250px;
-    border-radius: 50%;
 }
 
 .e-mail:before {
@@ -619,7 +618,7 @@ strong {
     color: #fff
 }
 
-.skills .skillz {
+.events .eventz {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -629,27 +628,27 @@ strong {
 }
 
 @media screen and (max-width:630px) {
-    .skills .skillz {
+    .events .eventz {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap
     }
 }
 
 @media screen and (max-width:630px) {
-    .skills .skillz__category {
+    .events .eventz__category {
         width: 47%;
         margin-right: 5px;
         margin-bottom: 25px
     }
 }
 
-.skills .skillz__category__label {
+.events .eventz__category__label {
     font-weight: 700;
     color: #36363c;
     text-transform: uppercase
 }
 
-.skills .skillz__category__item {
+.events .eventz__category__item {
     margin: 3px 0;
     font-size: .9rem
 }
@@ -1152,5 +1151,3 @@ strong {
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px)
 }
-
-
