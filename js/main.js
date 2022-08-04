@@ -48,7 +48,6 @@ $(function() {
     viewFactor: 0.3,
   });
 
-  sr.reveal('.background');
-  sr.reveal('.skills');
+  sr.reveal('.events');
   sr.reveal('.experience', { viewFactor: 0.15 });
 });
